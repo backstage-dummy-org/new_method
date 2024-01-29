@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  title: "New_method"
+  name: "12"
+  description: "nothing"
+  annotations:
+    github.com/project-slug: backstage-dummy-org/new_method
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "group:default/team-404-dp"
